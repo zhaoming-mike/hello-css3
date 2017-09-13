@@ -1,0 +1,29 @@
+{
+  "name": "hello-css3",
+  "version": "0.0.1",
+  "description": "learning css3",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhaoming-mike/hello-css3.git"
+  },
+  "keywords": [
+    "css3",
+    "js"
+  ],
+  "author": "zhaoming23@gmail.com",
+  "contributors": [
+    ""
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhaoming-mike/hello-css3/issues"
+  },
+  "homepage": "https://github.com/zhaoming-mike/hello-css3#readme",
+  "devDependencies": {
+    "browser-sync": "^2.12.10",
+    "gulp": "^3.9.1"
+  }
+}
