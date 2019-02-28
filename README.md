@@ -11,6 +11,11 @@
 
 
 ## 开启响应式
+
+为了确保适当的绘制和触屏缩放，需要在`<head>`中添加`viewport`元数据标签
+* `width=device-width`:宽度等于设备宽度
+* `initial-scale`=1.0:初始显示大小——原始大小，即不进行缩放
+    
 ```html
 <head>
     <meta charset="UTF-8">
@@ -22,7 +27,3 @@
     <![endif] -->
 </head>
 ```
-
-1. 为了确保适当的绘制和触屏缩放，需要在<head>中添加viewport元数据标签
-`width=device-width`:宽度等于设备宽度
-`initial-scale`=1.0:初始显示大小——原始大小，即不进行缩放
